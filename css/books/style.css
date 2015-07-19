@@ -1,0 +1,79 @@
+
+.h1_books{
+	text-align: center;
+	font-style: italic;
+}
+
+.books_table{
+	width: 100%;
+	border: 1px solid;
+	border-spacing: 0px;
+	border-bottom: 0;
+	border-left: 0;
+}
+
+.books_table_row{
+	border-bottom: 1px solid;
+	border-left: 1px solid;
+	font-weight: normal;
+}
+
+.head{
+
+	font-weight: bold;
+}
+
+.books_button{
+	float: left;
+	width: calc(50% - 12px);
+	height: 100%;
+	padding: 6px;
+}
+
+.books_action{
+	height: 60px;
+	width: 50%;
+	margin: 40px auto;
+}
+
+.button_link{
+	height: 100%;
+}
+
+.button_link > button{
+	height: 100%;
+	width: 90%;
+	display: block;
+	margin: auto;
+}
+
+h2{
+	text-align: center;
+}
+
+.books_input{
+	padding: 10px;
+	text-align: center;
+}
+
+.books_input > input{
+	width: 350px;
+	height: 40px;
+	font-size: 1.5em;
+}
+
+
+.books_input > label{
+	margin: 0 30px;
+	font-size: 1.5em;
+	display: inline-block;
+	width: 100px;
+	text-align: left;
+}
+
+.books_input > button{
+	height: 45px;
+	width: 95px;
+	position: relative;
+	left: -13px;
+}
